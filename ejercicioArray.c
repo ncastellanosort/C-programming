@@ -28,5 +28,14 @@ int main()
     printf("\n%d. %d\n", h, vector[k]); 
   }
 
+  int sum = 0;
+  for(int l = 0; l < tamano; l++)
+  {
+    sum = vector[l] + sum; 
+  }
+  printf("\nSuma de los elementos del vector: %d", sum);
+
+
+
   return 0;
 }

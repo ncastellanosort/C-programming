@@ -1,6 +1,13 @@
 # C - Language 💻
+<div align="center">
+  
+  ![Coding.](https://media.giphy.com/media/zkRQ24mPZ1HvHj9pZ6/giphy.gif "C gif") 
+  
+</div>
+
 
 ### In this repo you will find everything you need to know about C, since variables:
+
 
 
 ```

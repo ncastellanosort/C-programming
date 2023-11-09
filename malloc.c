@@ -15,7 +15,7 @@ int main()
   void *calloc(int n_datos, int tamano_datos); 
   
   Si el pedido de memoria falla, devuelve un NULL
-
+ 
   */
   
   // Asignar espacio con malloc
@@ -23,7 +23,8 @@ int main()
   int *p;
 
   p = (int*) malloc((n)*sizeof(int)); // 10 * 4(tamano de un int)
-                                      //  (int*) es un type-casting
+
+  //  (int*) es un type-casting
  
   // Siempre es bueno preguntar el NULL para los errores;
   if(p==NULL)
@@ -43,7 +44,6 @@ int main()
 
   free(p);
   free(q);
- 
 
   return 0;
 }

@@ -11,7 +11,8 @@ void bubblesort(int array[], int tamano)
   {
     for(int j=0; j < tamano-1; j++)
     {
-      if(array[j] > array[j + 1])
+      // Con el signo de mayor o menor se puede cambiar el orden de ascendente a descendente
+      if(array[j] < array[j + 1])
       {
         int temp = array[j];
         array[j] = array[j + 1];
@@ -27,7 +28,7 @@ void imprimir(int array[], int tamano)
 {
   for(int i = 0; i < tamano; i++)
   {
-    printf("%d, ",array[i]);
+    printf("%d ",array[i]);
   }
 }
 
@@ -35,7 +36,7 @@ void imprimir(int array[], int tamano)
 int main()
 {
 
-  int array[] = {1,6,5,4,7,3,8,9,0,7,};
+  int array[] = {54,23,532,65,23,65,75,3,754,2,35,6,235,63,3};
   int tamano = sizeof(array)/sizeof(array[0]);
 
   bubblesort(array, tamano);
